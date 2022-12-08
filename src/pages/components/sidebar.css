@@ -1,0 +1,61 @@
+.node_list_container {
+  max-height: 400px;
+  width: 20%;
+  max-width: 300px;
+  margin: 20px 0 0 20px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px 1px rgba(230, 230, 230, 0.75);
+  background-color: white;
+}
+
+.node_list_container .description {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header_selector {
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_selector h5 {
+  font-weight: 600;
+  color: rgb(102, 102, 102);
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* .header_selector h5:hover {
+  background-color: rgb(240, 240, 240);
+} */
+.selectedh5 {
+  transition: all 0.5s;
+  background-color: white;
+  box-shadow: 0px 2px 5px 1px rgba(230, 230, 230, 0.75);
+}
+.single_node {
+  height: 48px;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0px 1px 1px 1px rgba(230, 230, 230, 0.75);
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0% 5%;
+}
+.single_node p {
+  margin-left: 10px;
+}
+.single_node .dot_option {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  cursor: pointer;
+}

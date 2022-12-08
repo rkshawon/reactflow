@@ -1,0 +1,9 @@
+.startFlow_node_container {
+  height: 35px;
+  width: 90px;
+  background-color: #2f89ff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

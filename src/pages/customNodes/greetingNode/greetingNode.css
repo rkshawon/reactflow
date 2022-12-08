@@ -1,0 +1,57 @@
+.greeting_node {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0px 1px 4px 1px rgba(240, 240, 240, 0.75);
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+  position: relative;
+}
+.greeting_node_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 5px 15px;
+}
+.greeting_node_header_text {
+  align-items: center;
+  display: flex;
+}
+.greeting_node_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.body_item,
+.body_item.message {
+  min-height: 40px;
+  width: 80%;
+  border-radius: 8px;
+  margin: 8px 0;
+  box-shadow: 0px 1px 1px 1px rgba(221, 221, 221, 0.75);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.body_item span {
+  font-size: larger;
+  font-weight: 500;
+  margin-right: 20px;
+  color: gray;
+}
+.body_item p {
+  font-weight: 600;
+}
+.circle_handle_output.catalogue {
+  margin-top: 45px;
+}
+.circle_handle_output.package {
+  margin-top: 115px;
+}
+.circle_handle_output.contact {
+  margin-top: 185px;
+}

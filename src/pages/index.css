@@ -1,0 +1,58 @@
+.dndflow {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .dndnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.dndflow .reactflow_wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+.circle_handle_input {
+  background-color: white;
+  border: 2px solid rgb(173, 173, 173);
+}
+.circle_handle_output {
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+}
+.heading_icon {
+  margin-right: 10px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid rgb(231, 231, 231);
+}
+a {
+  text-decoration: none;
+  color: #23aeff;
+  font-weight: 600;
+}
+
+/* @media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 30%;
+    max-width: 250px;
+  }
+} */
